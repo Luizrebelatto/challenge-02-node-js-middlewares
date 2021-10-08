@@ -36,15 +36,12 @@ Objetivo deste projeto foi aplicar os conceitos aprendidos sobre middlewares no 
 - Alterar estado da tarefa
 - Deletar tarefa
 
-## 📱 Rotas
+## 📱 Middlewares
 
-- POST → /users
-- POST → /todos
-- GET → /todos
-- PUT → /todos/:id
-- PATCH → /todos/:id/done
-- DELETE → /todos/:id
-
+- checksExistsUserAccount
+- checksCreateTodosUserAvailability
+- checksTodoExists
+- checksTodoExists
 
 ## 🚀 Como executar
 
@@ -53,15 +50,15 @@ Objetivo deste projeto foi aplicar os conceitos aprendidos sobre middlewares no 
 
 2) Abrir terminal(CMD/TERMINAL ou VSCode/CMD) e acessar a pasta raiz do projeto (pelo terminal).
     
-
 3) Instalar Dependências:
   execute `yarn`
 
-
 4) Rodar Aplicação no http://localhost:3333:
     `yarn dev`
-      
     
+5) Rodar Aplicação no http://localhost:3333:
+    `yarn test`      
+
 ---
 
 Desenvolvido por👋🏻:
