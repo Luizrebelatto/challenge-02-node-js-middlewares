@@ -38,7 +38,7 @@ Objetivo deste projeto foi aplicar os conceitos aprendidos sobre middlewares no 
 
 ## 📱 Middlewares
 
-- checksExistsUserAccount
+- [x]  middlewares
 - checksCreateTodosUserAvailability
 - checksTodoExists
 - checksTodoExists
