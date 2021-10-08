@@ -22,7 +22,13 @@ function checksExistsUserAccount(request, response, next) {
 }
 
 function checksCreateTodosUserAvailability(request, response, next) {
-  // Complete aqui
+  const { user } = request;
+
+  if((user.pro === false && user.todos.length < 10) || user.pro === true ){
+    return next();
+  }
+
+  return response.status(403).json({ error: "Free plan limit reached. Please upgrade to pro."});
 }
 
 function checksTodoExists(request, response, next) {
