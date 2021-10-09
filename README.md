@@ -43,7 +43,19 @@ Objetivo deste projeto foi aplicar os conceitos aprendidos sobre middlewares no 
 - [x] checksTodoExists
 - [x] findUserById
 
-- Testes 
+## 💻 Testes
+- [x] Should be able to find user by username in header and pass it to request.user
+- [x] Should not be able to find a non existing user by username in header
+- [x] Should be able to let user create a new todo when is in free plan and have less than ten todos
+- [x] Should not be able to let user create a new todo when is not Pro and already have ten todosShould not be able to let user create a new todo when is not Pro and already have ten todos
+- [x] Should not be able to let user create a new todo when is not Pro and already have ten todos
+- [x] Should be able to put user and todo in request when both exits
+- [x] Should not be able to put user and todo in request when user does not exists
+- [x] Should not be able to put user and todo in request when todo id is not uuid
+- [x] Should not be able to put user and todo in request when todo does not exists
+- [x] Should be able to find user by id route param and pass it to request.user
+- [x] Should not be able to pass user to request.user when it does not exists
+
 
 ## 🚀 Como executar
 
@@ -58,7 +70,7 @@ Objetivo deste projeto foi aplicar os conceitos aprendidos sobre middlewares no 
 4) Rodar Aplicação no http://localhost:3333:
     `yarn dev`
     
-5) Rodar Aplicação no http://localhost:3333:
+5) Rodar Testes:
     `yarn test`      
 
 ---
