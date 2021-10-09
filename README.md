@@ -36,12 +36,14 @@ Objetivo deste projeto foi aplicar os conceitos aprendidos sobre middlewares no 
 - Alterar estado da tarefa
 - Deletar tarefa
 
-## 📱 Middlewares
+## ✔️ Requisitos
 
-- [x]  middlewares
-- checksCreateTodosUserAvailability
-- checksTodoExists
-- checksTodoExists
+- [x] checksExistsUserAccount
+- [x] checksCreateTodosUserAvailability
+- [x] checksTodoExists
+- [x] findUserById
+
+- Testes 
 
 ## 🚀 Como executar
 
